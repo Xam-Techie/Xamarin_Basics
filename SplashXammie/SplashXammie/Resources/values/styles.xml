@@ -3,11 +3,6 @@
   <style name="MyTheme.Base" parent="Theme.AppCompat.Light">
   </style>
 
-  <style name="MyTextInputLayout" parent="@android:style/TextAppearance">
-    <item name="android:textColor">#aeaeae</item>
-    <item name="android:textSize">13px</item>
-  </style>
-
   <style name="MyTheme" parent="MyTheme.Base">
   </style>
 

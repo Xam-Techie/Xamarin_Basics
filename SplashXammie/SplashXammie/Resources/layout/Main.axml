@@ -3,10 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+  
   <TextView
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    android:text="Welcome Folks"
-    android:gravity="center"
-    android:textColor="@color/splash_background"/>
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:text="Welcome Folks In XAM-TECHIE"
+      android:textSize="@dimen/abc_text_size_title_material"
+      android:gravity="center"
+      android:textColor="@color/splash_background" />
+  
 </LinearLayout>
