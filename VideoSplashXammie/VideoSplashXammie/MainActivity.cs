@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace VideoSplashXammie
 {
-    [Activity(Label = "VideoSplashXammie", MainLauncher = true)]
+    [Activity(Label = "VideoSplashXammie")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
