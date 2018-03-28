@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace SplashXammie
 {
-    [Activity(Label = "SplashXammie", MainLauncher = true)]
+    [Activity(Label = "SplashXammie")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
