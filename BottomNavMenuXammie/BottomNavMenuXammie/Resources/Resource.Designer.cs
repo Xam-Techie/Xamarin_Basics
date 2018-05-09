@@ -3079,6 +3079,9 @@ namespace BottomNavMenuXammie
 			// aapt resource value: 0x7f090161
 			public const int Animation_Design_BottomSheetDialog = 2131296609;
 			
+			// aapt resource value: 0x7f09017a
+			public const int AppTheme = 2131296634;
+			
 			// aapt resource value: 0x7f0900a3
 			public const int Base_AlertDialog_AppCompat = 2131296419;
 			

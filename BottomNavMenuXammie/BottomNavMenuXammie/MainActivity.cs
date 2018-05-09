@@ -7,7 +7,7 @@ using BottomNavMenuXammie.SampleFragments;
 
 namespace BottomNavMenuXammie
 {
-    [Activity(Label = "BottomNavMenuXammie", MainLauncher = true)]
+    [Activity(Label = "BottomNavMenuXammie", MainLauncher = true, Icon = "@drawable/Alerts", Theme = "@style/AppTheme")]
     public class MainActivity : Activity
     {
         BottomNavigationView bottomNavigation;
@@ -21,6 +21,8 @@ namespace BottomNavMenuXammie
 
             bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.btmNavBar);
             bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
+
+          // bottomNavigation.NavigationItemSelected = (int)(Resource.Id.menu_Utility);
             LoadFragment(Resource.Id.menu_Alerts);
         }
 
@@ -31,46 +33,26 @@ namespace BottomNavMenuXammie
 
         private void LoadFragment(int id)
         {
-            //Fragment fragment = null;
+            
 
-            //switch (itemId)
-            //{
-            //    case Resource.Id.menu_Alerts:
-            //        fragment = new FirstFragment1 ();
-            //        break;
-                
-            //    case Resource.Id.menu_Utility:
-            //        fragment = new SecondFragment();
-            //        break;
-            //    case Resource.Id.menu_Application:
-            //        fragment = new ThirdFragment();
-            //        break;
-            //}
-            //if (fragment == null)
-            //    return;
-
-            //FragmentManager.BeginTransaction()
-            //    .Replace(Resource.Id.content_frame, fragment)
-            //    .Commit();
-
-            Android.Support.V4.App.Fragment fragment = null;
+            Fragment fragment = null;
             switch (id)
             {
-                case Resource.Id.menu_home:
-                    fragment = Fragment1.NewInstance();
+                case Resource.Id.menu_Alerts:
+                    fragment = new FirstFragment1();
                     break;
-                case Resource.Id.menu_audio:
-                    fragment = Fragment2.NewInstance();
+                case Resource.Id.menu_Application:
+                    fragment = new SecondFragment();
                     break;
-                case Resource.Id.menu_video:
-                    fragment = Fragment3.NewInstance();
+                case Resource.Id.menu_Utility:
+                    fragment = new ThirdFragment();
                     break;
             }
 
             if (fragment == null)
                 return;
 
-            SupportFragmentManager.BeginTransaction()
+            FragmentManager.BeginTransaction()
                 .Replace(Resource.Id.content_frame, fragment)
                 .Commit();
         }
