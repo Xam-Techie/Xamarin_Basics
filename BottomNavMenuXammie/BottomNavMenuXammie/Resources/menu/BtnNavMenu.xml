@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/menu_Alerts"
+      android:enabled="true"
+      android:icon="@drawable/Alerts"
+      android:title="Alerts"
+      android:textSize="16dp"
+      android:layout_height="42dp"
+      android:layout_width="95dp"/>
+
+  <item
+      android:id="@+id/menu_Utility"
+      android:enabled="true"
+      android:icon="@drawable/Utilities"
+      android:title="Utilities"
+      android:textSize="16dp"
+      android:layout_height="42dp"
+      android:layout_width="95dp"/>
+
+  <item
+      android:id="@+id/menu_Application"
+      android:enabled="true"
+      android:icon="@drawable/Applications"
+      android:textSize="16dp"
+      android:title="Applications"
+      android:layout_height="42dp"
+      android:layout_width="95dp"/>
+</menu>
