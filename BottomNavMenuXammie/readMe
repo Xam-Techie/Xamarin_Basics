@@ -1,0 +1,9 @@
+The debate over whether tabs should go on the top or the bottom of a screen has raged for nearly a decade. 
+Android has always preferred to use tabs as a filtering mechanism on the top of a page, while iOS has used bottom 
+tabs as the main source of navigation. Now, with the addition of the Bottom Navigation View in the Support Design library,
+Android developers have the choice of where their main navigation comes from in their applications.
+
+Bottom navigation bars make it easy for your users to navigate through your top-level views with a single tap, compared 
+the the navigation drawer that flies out from the side and has been a standard when there are a lot of different sections 
+to an app. Today, I’ll walk through when it’s best to use bottom navigation in your app, how to implement it, and how to 
+customize it to your liking.
