@@ -1,1 +1,18 @@
 Here you can find the latest splash screen project
+
+Splash Screen
+
+Contributors
+Narasagounda Patil
+An Android app takes some time to to start up, especially when the app is first launched on a device. A splash screen may display start up progress to the user or to indicate branding.
+
+Overview
+An Android app takes some time to to start up, especially during the first time the app is run on a device (sometimes this is referred to as a cold start). The splash screen may display start up progress to the user, or it may display branding information to identify and promote the application.
+
+This guide discusses one technique to implement a splash screen in an Android application. It covers the following steps:
+
+Creating a drawable resource for the splash screen.
+
+Defining a new theme that will display the drawable resource.
+
+Adding a new Activity to the application that will be used as the splash screen defined by the theme created in the previous step.
