@@ -1,3 +1,5 @@
+Exploring Android’s Bottom Navigation View
+
 The debate over whether tabs should go on the top or the bottom of a screen has raged for nearly a decade. 
 Android has always preferred to use tabs as a filtering mechanism on the top of a page, while iOS has used bottom 
 tabs as the main source of navigation. Now, with the addition of the Bottom Navigation View in the Support Design library,
